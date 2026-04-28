@@ -117,7 +117,7 @@ int main() {
     cari_kombinasi(0, 0, 0, current_subset, 0, daftar, N, W);
 
     // Mencetak Output (sudah pasti tercetak berurutan alfabetis karena array awal diurutkan)
-    printf("MAX VALUE %d\n", best_val);
+    printf("MAX_VALUE %d\n", best_val);
     for (int i = 0; i < best_count; i++) {
         printf("ITEM %s\n", daftar[best_subset[i]].nama);
     }
